@@ -1,9 +1,9 @@
-import Login from "@/component/login";
+import States from "@/component/states";
 
 const page = () => {
   return (
     <div>
-      <Login />
+      <States />
     </div>
   );
 };

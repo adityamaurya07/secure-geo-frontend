@@ -1,9 +1,9 @@
-import Login from "@/component/login";
+import Districts from "@/component/district";
 
 const page = () => {
   return (
     <div>
-      <Login />
+      <Districts />
     </div>
   );
 };

@@ -1,9 +1,9 @@
-import Login from "@/component/login";
+import Countries from "@/component/countries";
 
 const page = () => {
   return (
     <div>
-      <Login />
+      <Countries />
     </div>
   );
 };
