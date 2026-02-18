@@ -4,7 +4,7 @@ import { JSEncrypt } from "jsencrypt";
 
 const API = axios.create({
   baseURL: "http://localhost:5000/api",
-  withCredentials: true, // 🔥 important
+  withCredentials: true,
 });
 const refreshAPI = axios.create({
   baseURL: "http://localhost:5000/api",
@@ -13,7 +13,6 @@ const refreshAPI = axios.create({
 
 let publicKey = null;
 
-/* 🔐 Fetch Public Key */
 const fetchPublicKey = async () => {
   if (publicKey) return publicKey;
 
